@@ -111,7 +111,7 @@ function openSunduk() {
         <h1>Ура, ти виграв!!!</h1>
         <audio src="audio/victory.mp3" autoplay></audio>
     </div>`
-    document.querySelector('.victory').style.background = `url('../image/farmear-diamante-minecraft.jpeg')`
+    // document.querySelector('.victory').style.background = `url('../image/farmear-diamante-minecraft.jpeg')`
         
     } else {
         document.querySelector('body').innerHTML += `<div class="looser">
